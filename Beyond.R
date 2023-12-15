@@ -101,7 +101,7 @@ SumCalculator <- function(Cards,x){
 Cards = 1:52
 array = numeric(52)
 for(i in 1:52){
-  array[i] = SumCalculator(i)
+  array[i] = SumCalculator(Cards, i)
 }
 plot(1:52, array)
 lines(1:52, array)
